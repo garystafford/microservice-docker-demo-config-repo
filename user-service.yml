@@ -5,7 +5,7 @@ spring:
     mongodb:
       host: ${MONGO_HOST:127.0.0.1}
       port: ${MONGO_PORT:27017}
-      database: ${MONGO_DB:user-development}
+      database: ${MONGO_DB:users}
 
 ---
 
@@ -16,10 +16,5 @@ spring:
 
 spring:
     profiles: production
-    data:
-      mongodb:
-        host: ${MONGO_HOST:127.0.0.1}
-        port: ${MONGO_PORT:27017}
-        database: ${MONGO_DB:user-production}
 server:
     port: 0
