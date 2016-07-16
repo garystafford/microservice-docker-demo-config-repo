@@ -1,5 +1,5 @@
 server:
-  port: 8031
+  port: ${NODE_PORT:8031}
 spring:
   data:
     mongodb:
