@@ -6,6 +6,16 @@ spring:
       host: ${MONGO_HOST:127.0.0.1}
       port: ${MONGO_PORT:27017}
       database: ${MONGO_DB:widgets}
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka:8761/eureka/
+  instance:
+    preferIpAddress: true
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
 
 ---
 
