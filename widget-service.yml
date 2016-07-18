@@ -8,8 +8,8 @@ spring:
       database: ${MONGO_DB:widgets}
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
       defaultZone: http://eureka:8761/eureka/
   instance:
