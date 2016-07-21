@@ -1,5 +1,5 @@
 server:
-  port: ${NODE_PORT:8031}
+  port: ${PORT:8031}
 
 spring:
   data:
@@ -22,5 +22,6 @@ spring:
 
 spring:
     profiles: production
+
 server:
     port: 0
