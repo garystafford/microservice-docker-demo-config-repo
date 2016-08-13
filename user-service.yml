@@ -13,6 +13,10 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka:8761/eureka/
 
+logging:
+  level: DEBUG
+  path: /var/log
+
 ---
 
 spring:
