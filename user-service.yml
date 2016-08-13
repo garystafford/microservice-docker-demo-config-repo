@@ -6,7 +6,7 @@ spring:
     mongodb:
       host: mongodb
       port: 27018
-      database: widgets
+      database: users
 
 eureka:
   client:
