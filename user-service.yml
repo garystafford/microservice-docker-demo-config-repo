@@ -14,8 +14,8 @@ eureka:
       defaultZone: http://eureka:8761/eureka/
 
 logging:
+  file: user-service.log
   level: DEBUG
-  path: /var/log
 
 ---
 
@@ -26,6 +26,9 @@ spring:
 
 spring:
     profiles: production
+
+logging:
+  level: WARN
 
 server:
     port: 0
