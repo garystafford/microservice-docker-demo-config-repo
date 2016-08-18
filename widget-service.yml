@@ -15,7 +15,8 @@ eureka:
 
 logging:
   file: widget-service.log
-  level: DEBUG
+  level:
+    root: DEBUG
 
 ---
 
