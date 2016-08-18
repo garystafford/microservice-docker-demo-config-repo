@@ -42,7 +42,8 @@ spring:
     profiles: production
 
 logging:
-  level: WARN
+  level:
+    root: WARN
 
 server:
     port: 0
