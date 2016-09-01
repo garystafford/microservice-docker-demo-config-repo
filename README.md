@@ -11,3 +11,6 @@ Spring Cloud Config Server property files repository, for an upcoming post on sc
 * Spring Cloud Config Server (migrating to Consul)
 * Spring Cloud Netflix Eureka
 * Spring Boot with Docker
+* The Elastic Stack (Elasticsearch, Kibana, Logstash, and Beats)
+* DockerHub
+* Travis CI
