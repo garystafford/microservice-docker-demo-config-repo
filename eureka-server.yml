@@ -5,8 +5,10 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
-    server:
-      waitTimeInMsWhenSyncEmpty: 0
+    healthcheck:
+      enabled: true
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
 
 ---
 
